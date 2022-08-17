@@ -1,6 +1,8 @@
 {
     "latex-workshop.view.pdf.viewer": "browser",
     "latex-workshop.latex.outDir": "out",
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.clean.fileTypes": ["chapters*/", "setup*/", "specials*/"],
     "latex-workshop.latex.tools": [
         {
             "name": "latexmk",
